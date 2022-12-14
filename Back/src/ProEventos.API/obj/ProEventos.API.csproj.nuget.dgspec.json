@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\udemy\\full-stack-dotnet-angular\\ProEventos\\Back\\src\\ProEventos.Api\\ProEventos.API.csproj": {}
+    "C:\\udemy\\full-stack-dotnet-angular\\ProEventos\\Back\\src\\ProEventos.API\\ProEventos.API.csproj": {}
   },
   "projects": {
-    "C:\\udemy\\full-stack-dotnet-angular\\ProEventos\\Back\\src\\ProEventos.Api\\ProEventos.API.csproj": {
+    "C:\\udemy\\full-stack-dotnet-angular\\ProEventos\\Back\\src\\ProEventos.API\\ProEventos.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\udemy\\full-stack-dotnet-angular\\ProEventos\\Back\\src\\ProEventos.Api\\ProEventos.API.csproj",
+        "projectUniqueName": "C:\\udemy\\full-stack-dotnet-angular\\ProEventos\\Back\\src\\ProEventos.API\\ProEventos.API.csproj",
         "projectName": "ProEventos.API",
-        "projectPath": "C:\\udemy\\full-stack-dotnet-angular\\ProEventos\\Back\\src\\ProEventos.Api\\ProEventos.API.csproj",
+        "projectPath": "C:\\udemy\\full-stack-dotnet-angular\\ProEventos\\Back\\src\\ProEventos.API\\ProEventos.API.csproj",
         "packagesPath": "C:\\Users\\Jacson\\.nuget\\packages\\",
-        "outputPath": "C:\\udemy\\full-stack-dotnet-angular\\ProEventos\\Back\\src\\ProEventos.Api\\obj\\",
+        "outputPath": "C:\\udemy\\full-stack-dotnet-angular\\ProEventos\\Back\\src\\ProEventos.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Jacson\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -44,6 +44,10 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[5.0.3, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.2, )"
@@ -245,6 +249,16 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
